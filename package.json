@@ -1,6 +1,6 @@
 {
   "name": "macos-contacts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MacOs Contacts is a Contact List component for react looks like MacOs native contact list.",
   "main": "./build",
   "peerDependencies": {

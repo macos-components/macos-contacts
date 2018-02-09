@@ -27,7 +27,8 @@ class App extends Component {
         style={{
           backgroundColor: colors.primaryBackGround,
           width: sizing.appWidth,
-          height: sizing.appHeight
+          height: sizing.appHeight,
+          padding: sizing.parentContainerPadding
         }}
       >
         { this.state.contactId ?

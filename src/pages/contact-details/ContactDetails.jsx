@@ -59,7 +59,7 @@ class ContactDetails extends Component {
           onBackClick={this.onBackClick}
         />
         <div>
-          <ProfileImage src={this.state.contact.src} style={{ margin: '0 auto' }} />
+          <ProfileImage src={this.state.contact.image} style={{ margin: '0 auto' }} />
           <div style={{ margin: '0 auto', fontSize: '22px', textAlign: 'center' }}>
             {this.state.contact.name}
           </div>

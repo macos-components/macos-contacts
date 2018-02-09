@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import colors from 'style/colors';
-import sizing from 'style/sizing';
 
 import ContactListHeader from 'pages/contact-list/header/ContactListHeader';
 import SearchBar from 'components/SearchBar';
@@ -104,7 +103,7 @@ class ContactList extends Component {
           height: '100%'
         }}
       >
-        <div style={{ padding: sizing.parentContainerPadding }}>
+        <div>
           <ModalScreen isActive={this.state.isSearchBarActive} />
           { !this.state.isSearchBarActive ? <ContactListHeader /> : null }
           <SearchBar
@@ -118,9 +117,8 @@ class ContactList extends Component {
           className="contact-list-items"
           style={{
             flexGrow: '1',
-            overflowY: 'scroll',
-            padding: sizing.parentContainerPadding
-}}
+            overflowY: 'scroll'
+          }}
         >
           {this.renderContactList()}
         </div>
