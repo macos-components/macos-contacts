@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders => components/PrimaryLink 1`] = `
+<button
+  onClick={null}
+  onKeyDown={null}
+  style={
+    Object {
+      "border": "none",
+      "color": "#3e96fd",
+      "cursor": "pointer",
+    }
+  }
+>
+  
+</button>
+`;

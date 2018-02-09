@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders => components/SearchBar 1`] = `
+<div
+  className="search-bar"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#cccccc",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "padding": "10px 15px 10px",
+      "position": "relative",
+      "zIndex": "101",
+    }
+  }
+>
+  <input
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyUp={null}
+    placeholder="Search"
+    style={
+      Object {
+        "border": "1px solid",
+        "borderColor": "#dddddd",
+        "borderRadius": "3px",
+        "flexGrow": "1",
+        "padding": "5px",
+        "textAlign": "center",
+      }
+    }
+    type="text"
+  />
+</div>
+`;
